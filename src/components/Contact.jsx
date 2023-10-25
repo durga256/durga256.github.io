@@ -27,17 +27,14 @@ const Contact = () => {
       [name]: value,
     });
   };
-  //683oY2UQ4B4CirnA1
-  // template_bo0n7di
-  // service_portfolio
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_portfolio',
+        'template_bo0n7di',
         {
           from_name: form.name,
           to_name: "Durga Sivakumar",
@@ -45,7 +42,7 @@ const Contact = () => {
           to_email: "durgadevi256@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        '683oY2UQ4B4CirnA1'
       )
       .then(
         () => {
