@@ -122,7 +122,7 @@ import {
       company_name: "Keyvrix Inc.,",
       icon: Keyvrix,
       iconBg: "#E6DEDD",
-      date: "Jun 2023 - Present",
+      date: "Jun 2023 - Oct 2023",
       points: [
         "Established an Azure Data Factory configuration for daily crypto data logging.",
         "Implemented data cleaning to supply machine learning models with blockchain data input",
@@ -136,7 +136,7 @@ import {
       company_name: "Anheuser-Busch InBev(Budweiser)",
       icon: Budweiser,
       iconBg: "#E6DEDD",
-      date: "Jul 2020 - Feb 2022",
+      date: "Jul 2020 - Aug 2022",
       points: [
         "Built a Progressive Web App(Full-stack) to collate all order approvals to a single website for the North America Zone, automating 2 FTE.",
         "Deployed Microsoft Geolocation APIs to monitor Cargo Movement",
@@ -150,7 +150,7 @@ import {
       company_name: "PreludeSys Inc.,",
       icon: PreludeSys,
       iconBg: "#E6DEDD",
-      date: "Jun 2018 - Jul 2019",
+      date: "May 2018 - Jul 2018",
       points: [
         "Developed decentralized applications (dApps) using Solidity, Truffle Suite, Remix, and Web3.js.",
         "Worked with Rinkeby to deploy smart contracts and test dApps",
